@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.sidebar{
+    background-color:rgb(174 192 201);
+    width: 190px;
+    border-radius: 35px;
+    height: 65vh;
+    margin-left: 20px;
+    margin-top: 70px;
+    font-family:monospace;
+    font-weight: bold;
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    padding: 23px 0;
+    list-style: none;
+    font-size: 25px   
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(31, 29, 29);
+}
+.sidebar nav li a:hover{
+    
+    color: rgb(150, 38, 90);
+    text-decoration: underline;
+}
+.main{
+    /* background-color: rgb(60, 60, 128); */
+    width: 72vw;
+
+    color: rgb(255, 255, 255);
+}
+.container{
+    display:flex;
+    background-color: rgb(14, 22, 48);
+    height: 95vh;
+}
+.infoContainer{
+    /* background-color: rgb(33, 202, 33); */
+    width: 80vw;
+    height: 69vh;
+    margin: 89px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    height: 65vh;
+    border-radius: 47px;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.Hello{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px
+}
+.name{
+    font-size: 53px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about{
+    font-size: 25px;
+}
+#aboutside{
+    height: 62vh;
+    margin-left: 2px;
+
+}
+.buttons{
+    margin-top: 34px;
+}
+ .buttons button:hover{
+    background-color: rgb(180, 98, 98);
+    color: rgb(14, 15, 15);
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 18px;
+    color: white;
+    background-color: #3272b5;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.contactform{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px;
+    padding: 10px 23px;
+}
+.contactform h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 29vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 15px;
+    color:#069754;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#clientmail{
+    width: 1vw;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+   width: 24px;
+   margin:3px 0;
+}
+#button{
+    margin: 10px;
+    padding: 6px;
+    border: 3px  solid gray;
+    color: rgb(7, 17, 19);
+    background-color: rgb(12, 106, 248);
+    border-radius: 11px;
+    font-size:15px;
+    font-weight: bold;
+}
+#button:hover{
+    background-color: rgb(180, 160, 199);
+    color: rgb(38, 20, 59);
+    /* font-weight: bold; */
+}
+#about{
+    margin-bottom: 355px;
+}
+#about h1{
+    color: coral;
+    margin-top: 261px;
+    margin-left: 15px;
+}
+#about h2{
+    text-align: center;
+    display: inline;
+    padding: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+#about h3{
+    font-family: cursive;
+    margin-left: 40px;
+}
+#about span{
+    color:#28e1a5;
+}
+#devpics img{
+    height: 156px;
+    border-radius: 50px;
+    width: 193px;
+    margin-left: 553px;
+}
+#portfolio{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
